@@ -53,9 +53,11 @@ for (let i=1; i<=5; i++){
         jonSnowHealth = 0;
     }
     console.log(`Jon Snows health is ${jonSnowHealth}`)
-    
+
     if(jonSnowHealth <=0){
         console.log('Jon Snow has been Slain')
         break;
     }
 }
+
+console.log('Made some changes');
